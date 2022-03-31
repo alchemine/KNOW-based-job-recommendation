@@ -14,7 +14,7 @@ def print_guide():
     """Print machine learning project guide for the user.
     """
     print(f"┌{' MACHINE LEARNING PROJECT GUIDE ':─^50}┐")
-    print(f"│{' 1. Load data':<50}│")
+    print(f"│{' 1. Load dataset':<50}│")
     print(f"│{'    1.1 Define target':<50}│")
     print(f"│{' 2. Separate training, validation, test data':<50}│")
     print(f"│{' 3. Exploratory Data Analysis(EDA)':<50}│")

@@ -123,7 +123,7 @@ def plot_features(data, bins=BINS, n_cols=N_COLS,                          dir_p
                 cnts = data[f].value_counts(normalize=True).sort_index()  # normalize including NaN
                 ax.bar(cnts.index, cnts.values, width=0.5, alpha=0.5)
                 ax.set_xticks(cnts.index)
-def plot_features_target(data,  target, n_cols=N_COLS,                     dir_path=None, figsize=FIGSIZE, show_plot=SHOW_PLOT):
+def plot_features_target(data, target, n_cols=N_COLS,                      dir_path=None, figsize=FIGSIZE, show_plot=SHOW_PLOT):
     """Plot features vs target.
 
     Parameters
